@@ -9,7 +9,7 @@
 <body class="bg-light">
     <nav class="navbar navbar-dark bg-dark mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('produtos.index') }}">📦 Sistema de Estoque</a>
+            <a class="navbar-brand" href="{{ route('produtos.index') }}"> Sistema de Estoque</a>
             @auth
             <div class="d-flex align-items-center gap-3">
                 <span class="text-white">Olá, {{ auth()->user()->name }}</span>
